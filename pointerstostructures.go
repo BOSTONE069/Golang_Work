@@ -11,7 +11,7 @@ type Books struct {
 func main() {
    var Book1 Books   /* Declare Book1 of type Book */
    var Book2 Books   /* Declare Book2 of type Book */
- 
+
    /* book 1 specification */
    Book1.title = "Go Programming"
    Book1.author = "Mahesh Kumar"
@@ -23,7 +23,7 @@ func main() {
    Book2.author = "Zara Ali"
    Book2.subject = "Telecom Billing Tutorial"
    Book2.book_id = 6495700
- 
+
    /* print Book1 info */
    printBook(&Book1)
 
