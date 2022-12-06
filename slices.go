@@ -10,6 +10,8 @@ import (
 
 func main() {
 
+    fmt.Println("Welcvome to the Golang Slices")
+
     // Creating Slice
     slc1 := []string{"Python", "Java", "C#", "Go", "Ruby"}
     slc2 := []int{45, 67, 23, 90, 33, 21, 56, 78, 89}
@@ -17,6 +19,11 @@ func main() {
     fmt.Println("Before sorting:")
     fmt.Println("Slice 1:", slc1)
     fmt.Println("Slice 2:", slc2)
+    fmt.Printf("The data type for the slc1 is %T\n", slc1)
+
+    //adding data to a slice slice
+    slc1 = append(slc1, "Javascript", "C", "C++")
+    fmt.Println(slc1)
 
     // Performing sort operation on the
     // slice using sort function
