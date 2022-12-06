@@ -51,4 +51,13 @@ func main() {
         fmt.Println("!..Slice are not equal..!")
     }
 
+    // How to remove a value based on index
+
+    var courses = []string{"reactjs", "javascript", "swift", "python", "ruby"}
+    fmt.Println(courses)
+    var index int = 2
+    // Removing the value at index 2.
+    courses = append(courses[:index], courses[index+1:]...)
+    fmt.Println(courses)
+
 }
