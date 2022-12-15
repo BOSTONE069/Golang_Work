@@ -19,4 +19,9 @@ func main() {
 	// Deleting the key value pair of JS from the map.
 	delete(languages, "JS")
 	fmt.Println("List of all languages: ", languages)
+
+	// Iterating over the map and printing the key and value.
+	for key, value := range languages {
+		fmt.Printf("For key %v, value is %v\n", key, value)
+	}
 }
