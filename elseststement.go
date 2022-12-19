@@ -4,7 +4,8 @@ import "fmt"
 
 func main() {
 	heistReady := false
-	
+
+// An if statement.
   if heistReady {
 		fmt.Println("Let's go!")
 	} else {
