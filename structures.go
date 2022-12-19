@@ -49,4 +49,6 @@ func main() {
   fmt.Println(boston)
   // Printing the struct in a more readable format.
   fmt.Printf("The students details are as follows: %+v\n", boston)
+
+  fmt.Printf("My name is %v and registration number is %v. \n", boston.name, boston.reg_no)
 }
