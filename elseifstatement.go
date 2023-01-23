@@ -15,4 +15,10 @@ func main() {
   } else {
 		fmt.Println("Why did we even do this?")
 	}
+
+	if num := 3; num < 10{
+		fmt.Println("Num is less than 10")
+	} else {
+		fmt.Println("Num is greater than 10")
+	}
 }
